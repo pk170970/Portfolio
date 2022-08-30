@@ -380,6 +380,7 @@ header>button{
 .my-work>p{
     color:#16e0bd;
     font-weight: var(--fw-bold);
+    font-size: 1.5rem;
 }
 
 .portfolio{
@@ -394,7 +395,7 @@ header>button{
     gap: 1em;
     padding-bottom:1em;
     background-color: #303030;
-    box-shadow: 0em 0em 0.8em white;
+    box-shadow: 0em 0em 0.5em white;
     border: 2px solid white;
     transform: translateY(0px);
     transition: transform 0.2s ease;
@@ -447,6 +448,21 @@ header>button{
     }
   }
 
+  @media (max-width:500px){
+    .my-work p{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .links a{
+        padding: 0.6em;
+        font-size: 0.7rem;
+    }
+
+    .portfolio__item{
+        box-shadow: 0em 0em 0.3em white;
+    }
+  }
 
 
 /* ---------------------------------footer section--------------------------- */
