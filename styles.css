@@ -457,6 +457,7 @@ header>button{
     .links a{
         padding: 0.6em;
         font-size: 0.7rem;
+        margin: 1em 0;
     }
 
     .portfolio__item{
